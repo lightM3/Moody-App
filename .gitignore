@@ -1,0 +1,84 @@
+# ==============================
+# Flutter / Dart
+# ==============================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# ==============================
+# 🔴 Secrets & Environment (KRİTİK)
+# ==============================
+.env
+.env.*
+*.env
+lib/core/config/secrets.dart
+lib/core/config/supabase_config.dart
+supabase/.branches
+supabase/.temp
+
+# ==============================
+# Android
+# ==============================
+/android/app/debug
+/android/app/profile
+/android/app/release
+local.properties
+**/android/.gradle
+android/key.properties
+**/*.jks
+**/*.keystore
+google-services.json
+
+# ==============================
+# iOS / macOS
+# ==============================
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Runner.xcworkspace/xcshareddata/
+**/ios/Runner.xcworkspace/xcuserdata/
+xcuserdata/
+GoogleService-Info.plist
+**/macos/Pods/
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+.swiftpm/
+
+# ==============================
+# OS
+# ==============================
+*.class
+*.log
+*.pyc
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+Thumbs.db
+Desktop.ini
